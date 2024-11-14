@@ -7,7 +7,7 @@ $(function() {
     viewer.loadDefaultColorMapFromURL('https://brainbrowser.cbrain.mcgill.ca/surface-viewer/color-maps/spectral.txt', function() {
       viewer.loadVolume({
         type: "nifti1",
-        nii_url: "data/mni152.nii.gz", // 修改为你自己的文件路径
+        nii_url: "https://raw.githubusercontent.com/wayalan/brainbrowser-mri-viewer/main/data/mni152.nii.gz", // 修改为你自己的文件路径
         template: {
           element_id: "volume-viewer",
           viewer_insert_class: "volume-viewer-display"
